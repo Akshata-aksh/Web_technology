@@ -1,0 +1,24 @@
+/*  */
+div p{
+    color: greenyellow;
+}
+
+/* child selector */
+/* > - symbol of child selector */
+
+div > p{
+    color: red;
+}
+
+/* Adjacent sibling selector
++ is the symbol */
+div + p{
+    color: blue;
+
+}
+
+/* General sibling slector 
+~ is the symbol*/
+div ~ p{
+    color: blueviolet;
+}
